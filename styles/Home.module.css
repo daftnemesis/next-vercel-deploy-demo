@@ -151,6 +151,20 @@
   background-clip: content-box;
 }
 
+.link {
+  font-size: 1rem;
+
+}
+
+.link a {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.linkContainer {
+  width: 200px;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
